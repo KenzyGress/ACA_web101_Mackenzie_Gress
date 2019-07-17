@@ -1,0 +1,26 @@
+body {
+    text-align:center;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.contact {
+    float: left;
+}
+
+.work {
+    float: right;
+}
+
+.experience {
+    float: right;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #EEA2AD;
+    margin: auto;
+    width: 50%;
+    border: 3px solid pink;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: "Verdana", sans-serif;
+    color: #F54D70;
+    text-align: center;
+}
+h2 {
+    font-family: "Verdana", sans-serif;
+    border: 2px dashed #F54D70;
+}
+article {
+    font-family: "Verdana", sans-serif;
+    color: #C82536;
+
+}
+span {
+    font-family: "Verdana", sans-serif;
+  }
+
+small {
+    font-style: italic;
+}
