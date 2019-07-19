@@ -1,26 +1,26 @@
 body {
     text-align:center;
     padding: 10px;
+    background: linear-gradient(to right, #5f5b61, #36215e);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 30px;
-}
-
-.header h1 {
+    color: #BDA0CB;
     font-size: 50px;
 }
 
-.contact {
+.box-set {
+    background: #eaeaed;
+  }
+  .box {
+    border-radius: 6px;
+    background: #BDA0CB;
     float: left;
-}
-
-.work {
-    float: right;
-}
-
-.experience {
-    float: right;
-}
+    margin: 1.858736059%;
+    width: 29.615861214%;
+    box-shadow: 0 15px 20px #DB70DB;
+  }
+  
