@@ -1,0 +1,22 @@
+body {
+    background: white;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background: url(space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background: lightgray;
+}
