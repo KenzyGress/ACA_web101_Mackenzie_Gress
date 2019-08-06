@@ -90,16 +90,70 @@ h2 {
 }
 
 /* Small and up (Landscape Phones) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+    body {
+        background-color: #A74CAB;
+        display: grid;
+    }
+
+    h1 {
+        font-size: 50px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .clock {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .todo {
+        grid-column: 2/2;
+        grid-row: 4/4;
+    }
+
+    .calculator {
+        grid-column: 2/2;
+        grid-row: 5/5;
+
+    }
+
+    .icons {
+        grid-column: 2/2;
+        grid-row: 7/7;
+    }
+
+    
+
 
 }
 
 /* Medium and up (Tablets) */
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
+    body {
+        background-color: #872657;
+        display: grid;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    .clock {
+        grid-column: 2/2;
+        grid-row: 1/2;
+    }
 
-}
+    .todo {
+        grid-column: 2/2;
+        grid-row: 3/3;
+    }
 
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
+    .icons {
+        grid-column: 2/2;
+        grid-row: 5/5;
+    }
 
+    .calculator {
+        grid-column: 4/5;
+        grid-row: 3/3;
+    }
 }

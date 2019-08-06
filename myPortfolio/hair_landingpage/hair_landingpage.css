@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Staatliches", cursive;
+  background-color: white;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  justify-self: center;
+}
+
+h3,
+h2 {
+  font-family: "Bangers", cursive;
+}
+
+.container {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 200px;
+  right: 10px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    justify-self: center;
+  }
+
+  h2 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 100%;
+    color: white;
+    background: black;
+  }
+
+  #beacon {
+    width: 100%;
+    position: relative;
+  }
+
+  .image {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+}
