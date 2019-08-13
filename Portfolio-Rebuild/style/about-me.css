@@ -1,31 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: #d9a7c7;
-  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
-  background: linear-gradient(to right, #fffcdc, #d9a7c7);
-  font-family: "Pacifico", cursive;
+  background-color: #ffe1ff;
+  font-family: "Muli", sans-serif;
   color: #683a5e;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutheader {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+nav {
   display: flex;
   justify-content: center;
 }
 
-.headerimg {
-  padding-bottom: 5px;
-  padding-top: 5px;
+nav a:hover {
+  background-color: #eeaeee;
 }
 
 a {
   text-decoration: none;
   color: #683a5e;
   font-family: "Pacifico", cursive;
-  display: flex;
-  justify-content: space-around;
-  font-size: 40px;
+  font-size: 20px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 2em;
 }
 
-nav a:hover {
-  background-color: #fff0f5;
-}
-
+.home,
 .about,
 .portfolio,
 .blog,
@@ -34,11 +49,19 @@ nav a:hover {
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
-  padding: 5px, 0px, 5px, 0px;
+  padding: 2px, 0px, 2px, 0px;
+}
+
+.content {
+  padding: 10px, 10px, 10px, 10px;
+  border: #dca2cd;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 5px;
 }
 
 @media (max-width: 580px) {
-  .headerimg {
+  .aboutheader {
     width: 100%;
   }
 
@@ -52,7 +75,7 @@ nav a:hover {
     line-height: 2em;
   }
 
-  .about,
+  .home,
   .portfolio,
   .blog,
   .contact {
@@ -60,7 +83,8 @@ nav a:hover {
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    padding: 5px, 0px, 5px, 0px;
+    padding: 2px, 0px, 2px, 0px;
     line-height: 2em;
+    font-size: 15px;
   }
 }
