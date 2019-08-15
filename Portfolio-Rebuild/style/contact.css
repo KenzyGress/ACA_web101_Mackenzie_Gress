@@ -1,7 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffe1ff;
   font-family: "Muli", sans-serif;
   color: #683a5e;
+}
+
+header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactheader {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a:hover {
+  background-color: #eeaeee;
+}
+
+a {
+  text-decoration: none;
+  color: #683a5e;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.home,
+.about,
+.portfolio,
+.blog {
+  border: #dca2cd;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 2px, 0px, 2px, 0px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contactform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .contactheader {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #683a5e;
+    font-family: "Pacifico", cursive;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    line-height: 2em;
+  }
+
+  .home,
+  .portfolio,
+  .blog,
+  .about {
+    border: #dca2cd;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px, 0px, 2px, 0px;
+    line-height: 2em;
+    font-size: 15px;
+  }
 }
