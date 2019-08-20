@@ -1,0 +1,35 @@
+body {
+  background-color: orange;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-family: "Lexend Mega", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+article {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: lightcyan;
+}
+
+header:hover {
+  background-color: orange;
+}
+
+h1 {
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+@media (max-width: 576px) {
+  .content {
+    display: block;
+  }
+}
