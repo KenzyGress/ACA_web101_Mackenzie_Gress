@@ -1,159 +1,156 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-background-color: #EEA9B8;
-display: grid;
-font-family: 'Barlow', sans-serif;
+  background-color: #eea9b8;
+  display: grid;
+  font-family: "Barlow", sans-serif;
 }
 
 .container {
-    display: grid;
-
+  display: grid;
 }
 
 h1 {
-    font-size: 100px;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    grid-column: 1/5;
-    grid-row: 1/5;
-    
+  font-size: 100px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  grid-column: 1/5;
+  grid-row: 1/5;
 }
 
 h2 {
-    font-size: 20px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img {
-    display: block;
+  display: block;
 }
 
 .clock {
-    grid-column: 1/3;
-    grid-row: 1/3;
-    text-align: center;
-    
+  grid-column: 1/3;
+  grid-row: 1/3;
+  text-align: center;
 }
 
 .todo {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    text-align: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
 }
 
 .calculator {
-    grid-column: 5/9;
-    grid-row: 2/5;
-    text-align: center;
-    
+  grid-column: 5/9;
+  grid-row: 2/5;
+  text-align: center;
 }
 
 #calculator {
-    width: 100px;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5px;
+  width: 100px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 
 .item {
-    height: 15px;
-    width: 15px;
-    margin-top: 10px;
-    position: relative;
-    flex-flow: wrap row;
-    background: pink;
-    border-radius: 3px;
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+  position: relative;
+  flex-flow: wrap row;
+  background: pink;
+  border-radius: 3px;
 }
 
 .screen {
-    flex: 100%;
-    margin: 0;
-    padding-right: 5px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background: pink;
+  flex: 100%;
+  margin: 0;
+  padding-right: 5px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: pink;
 }
 
 .icons {
-   grid-column: 1/3;
-   grid-row: 5/8;
-   text-align: center;
-   padding-top: 20px;
-    
+  grid-column: 1/3;
+  grid-row: 5/8;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.location {
+  grid-column: 3/3;
+  grid-row: 6/8;
+  text-align: center;
+  padding-top: 20px;
 }
 
 /* Small and up (Landscape Phones) */
 @media (max-width: 576px) {
-    body {
-        background-color: #A74CAB;
-        display: grid;
-    }
+  body {
+    background-color: #a74cab;
+    display: grid;
+  }
 
-    h1 {
-        font-size: 50px;
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
+  h1 {
+    font-size: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 
-    .clock {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
+  .clock {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 
-    .todo {
-        grid-column: 2/2;
-        grid-row: 4/4;
-    }
+  .todo {
+    grid-column: 2/2;
+    grid-row: 4/4;
+  }
 
-    .calculator {
-        grid-column: 2/2;
-        grid-row: 5/5;
+  .calculator {
+    grid-column: 2/2;
+    grid-row: 5/5;
+  }
 
-    }
-
-    .icons {
-        grid-column: 2/2;
-        grid-row: 7/7;
-    }
-
-    
-
-
+  .icons {
+    grid-column: 2/2;
+    grid-row: 7/7;
+  }
 }
 
 /* Medium and up (Tablets) */
-@media (min-width: 768px) { 
-    body {
-        background-color: #872657;
-        display: grid;
-    }
-    h1 {
-        font-size: 80px;
-    }
-    .clock {
-        grid-column: 2/2;
-        grid-row: 1/2;
-    }
+@media (min-width: 768px) {
+  body {
+    background-color: #872657;
+    display: grid;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  .clock {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
 
-    .todo {
-        grid-column: 2/2;
-        grid-row: 3/3;
-    }
+  .todo {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
 
-    .icons {
-        grid-column: 2/2;
-        grid-row: 5/5;
-    }
+  .icons {
+    grid-column: 2/2;
+    grid-row: 5/5;
+  }
 
-    .calculator {
-        grid-column: 4/5;
-        grid-row: 3/3;
-    }
+  .calculator {
+    grid-column: 4/5;
+    grid-row: 3/3;
+  }
 }
